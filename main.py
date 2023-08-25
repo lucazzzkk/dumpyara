@@ -8,9 +8,7 @@ import telebot
 import re
 
 allowed_user_ids = [
-    172222663,  # GiovanniRN5
-    690187343,  # lostark13
-    419006851,  # dereference
+    5398632941,  # Redznn
 ]
 
 # Read the Telegram token from the file
@@ -73,7 +71,7 @@ def dump(message):
         bot.send_message(chat_id, "Dump started successfully!")
         bot.send_message(
             chat_id,
-            "Feel free to check the dump progress [here](https://github.com/Jiovanni-dump/dumpyara/actions)",
+            "Feel free to check the dump progress [here](https://github.com/redznn/dumpyara/actions)",
             parse_mode="Markdown",
         )
     except Exception as e:
