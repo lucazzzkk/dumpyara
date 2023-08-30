@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://mirrors.lolinet.com/firmware/motorola/liber/official/RETAIL/LIBER_RETAIL_11_RPIS31.Q2-42-25-1_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip" # Direct url to a recovery zip
+  DUMP_URL: "https://mirrors.lolinet.com/firmware/motorola/hanoip/official/RETAIL/HANOIP_RETAIL_12_S2RIS32.32-20-7-7_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip" # Direct url to a recovery zip
 
 jobs:
   dump:
